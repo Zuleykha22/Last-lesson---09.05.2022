@@ -1,0 +1,126 @@
+#header{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    .logo{
+        h4{
+            color: white;
+        }
+    }
+    .menu{
+        ul{
+            position: relative;
+            li{
+                a{
+                    font-weight: 500;
+                    display: block;
+                    text-decoration: none;
+                    color: white;
+                    padding: 22px;
+                }
+                &.home{
+                    a{
+                        color: #B3BCC7;
+                    }
+                    &:hover{
+                        .home-menu{
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+                    .home-menu{
+                        transition: 0.3s ease-in-out;
+                        background-color: whitesmoke;
+                        position: absolute;
+                        top:100%;
+                        left: -80%;
+                        width: 950px;
+                        padding: 20px 40px;
+                        opacity: 0;
+                        visibility: hidden;
+                        border-radius: 5px;
+                    }
+                }
+                &.pages{
+                    position: relative;
+                    a{
+                        color: #ffffff;
+                        transition: 0.2s ease-in-out;
+                        &:hover{
+                            color: #B3BCC7;
+                        }
+                    }
+                    &:hover{
+                        .pages-menu{
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+                    .pages-menu{
+                        transition: 0.3s ease-in-out;
+                        background-color: whitesmoke;
+                        position: absolute;
+                        top:100%;
+                        left: 0%;
+                        width: 250px;
+                        padding: 20px;
+                        opacity: 0;
+                        visibility: hidden;
+                        border-radius: 5px;
+                        .menu-a{
+                            padding: 12px 0;
+                            font-size: 14px;
+                            color: rgb(148, 148, 148);
+                        i{
+                            padding-left: 150px;
+                            color: rgb(148, 148, 148);
+                            display: inline;
+                        }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .search{
+        a{
+            color: white;
+            text-decoration: none;
+            i{
+                padding: 10px;
+                transition: 0.3s ease-in-out;
+                &:hover{
+                    color: #B3BCC7;
+                }
+            }
+        } 
+    }
+}
+
+// header ends 
+
+.sec1{
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://lithohtml.themezaa.com/images/home-startup-slider-bg-03.jpg);
+    background-repeat: repeat;
+    object-fit: cover;
+    position: relative;
+    .blackish{
+        padding-top: 200px;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:0%;
+        left: 0%;
+        background-color: rgba(0, 0, 0, 0.363);
+    }
+    h1{
+        color: white;
+        font-size: 65px;
+        font-weight: 1000;
+    }
+}

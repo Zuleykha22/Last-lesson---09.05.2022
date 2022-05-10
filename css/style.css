@@ -1,0 +1,134 @@
+#header {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#header .logo h4 {
+  color: white;
+}
+
+#header .menu ul {
+  position: relative;
+}
+
+#header .menu ul li a {
+  font-weight: 500;
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 22px;
+}
+
+#header .menu ul li.home a {
+  color: #B3BCC7;
+}
+
+#header .menu ul li.home:hover .home-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+#header .menu ul li.home .home-menu {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  background-color: whitesmoke;
+  position: absolute;
+  top: 100%;
+  left: -80%;
+  width: 950px;
+  padding: 20px 40px;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 5px;
+}
+
+#header .menu ul li.pages {
+  position: relative;
+}
+
+#header .menu ul li.pages a {
+  color: #ffffff;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+#header .menu ul li.pages a:hover {
+  color: #B3BCC7;
+}
+
+#header .menu ul li.pages:hover .pages-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+#header .menu ul li.pages .pages-menu {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  background-color: whitesmoke;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  width: 250px;
+  padding: 20px;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 5px;
+}
+
+#header .menu ul li.pages .pages-menu .menu-a {
+  padding: 12px 0;
+  font-size: 14px;
+  color: #949494;
+}
+
+#header .menu ul li.pages .pages-menu .menu-a i {
+  padding-left: 150px;
+  color: #949494;
+  display: inline;
+}
+
+#header .search a {
+  color: white;
+  text-decoration: none;
+}
+
+#header .search a i {
+  padding: 10px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#header .search a i:hover {
+  color: #B3BCC7;
+}
+
+.sec1 {
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  width: 100%;
+  background-image: url(https://lithohtml.themezaa.com/images/home-startup-slider-bg-03.jpg);
+  background-repeat: repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+}
+
+.sec1 .blackish {
+  padding-top: 200px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  background-color: rgba(0, 0, 0, 0.363);
+}
+
+.sec1 h1 {
+  color: white;
+  font-size: 65px;
+  font-weight: 1000;
+}
+/*# sourceMappingURL=style.css.map */
